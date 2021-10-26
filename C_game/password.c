@@ -7,7 +7,7 @@ void success();
 void fail();
 
 
-int main(void)
+int mainpassword(void)
 {
 	// 문이 5개가 있고, 각 문마다 점점 어려운 수식 퀴즈가 출제 (랜덤)
 	// 맞히면 동과, 틀리면 실패
@@ -19,8 +19,7 @@ int main(void)
 		// x * y = ?
 		int num1 = getRandomNumber(i);
 		int num2 = getRandomNumber(i);
-		//printf("%d x %d ?\n", num1, num2);
-		showQusestion(i, num1, num2);
+		showQusestion(i, num1, num2); //printf("%d x %d ?\n", num1, num2);
 
 		int answer = -1;
 		scanf_s("%d", &answer);

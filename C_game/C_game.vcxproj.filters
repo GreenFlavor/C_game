@@ -18,5 +18,11 @@
     <ClCompile Include="password.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="boldhair.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
