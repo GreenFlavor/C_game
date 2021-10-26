@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <time.h>
 
-int main(void)
+int mainbold(void)
 {
 	srand(time(NULL));
 	printf("\n\n === 아빠는 대머리 게임 ===\n\n");
 	int answer; //사용자 입력값
-	int treatment = rand() % 4; // 발모제 선택 (0~3)
+	int treatment = rand() % 4; // 발모제 선택 (0~3) 
 
 	int cntShowBottle = 0; // 이번 게임에 보여줄 병 갯수
 	int prevCntShowBottle = 0; // 앞 게임에 보여준 병 갯수
@@ -15,7 +15,7 @@ int main(void)
 	// 3번의 기회
 	for (int i = 1; i <= 3; i++)
 	{
-		int bottle[4] = { 0, 0, 0, 0, }; // 4개의 병
+		int bottle[4] = { 0, 0, 0, 0 }; // 4개의 병
 		do
 		{
 			cntShowBottle = rand() % 2 + 2; // 보여줄 병 갯수 (0~1, +2 -> 2, 3)

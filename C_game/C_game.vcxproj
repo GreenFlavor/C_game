@@ -142,6 +142,7 @@
     <ClCompile Include="array.c" />
     <ClCompile Include="boldhair.c" />
     <ClCompile Include="password.c" />
+    <ClCompile Include="pointer.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
