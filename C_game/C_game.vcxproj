@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="array.c" />
     <ClCompile Include="boldhair.c" />
+    <ClCompile Include="m_array.c" />
     <ClCompile Include="password.c" />
     <ClCompile Include="pointer.c" />
   </ItemGroup>
